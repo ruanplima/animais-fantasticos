@@ -273,4 +273,17 @@ body{
 
 .js .faq-lista dd.ativo{
     display: block;
+    animation: accordionList .5s forwards;
+}
+
+@keyframes accordionList{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    
+    for{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
