@@ -1,4 +1,4 @@
-@charset "URF-8";
+@charset "UTF-8";
 
 *{
     margin: 0;
@@ -7,6 +7,11 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+/* OUTRA MANEIRA DE FAZER O SCROLL SUAVE DOS LINKS INTERNOS APENAS COM CSS
+html{
+    scroll-behavior: smooth;
+} */
 
 img{
     display: block;
